@@ -111,7 +111,7 @@ const controlLike = () => {
     if (!state.likes) state.likes = new Likes();
     const currentID = state.recipe.id;
 
-    // User has NOT yet liked current recipe
+    // User has not yet liked current recipe
     if (!state.likes.isLiked(currentID)) {
         // Add like to the state
         const newLike = state.likes.addLike(
