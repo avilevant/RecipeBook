@@ -3,7 +3,8 @@
     "version": "1.0.0",
     "description": "forkify pro",
     "engines": {
-        "node": "12.16.1"
+        "node": "12.16.1",
+        "npm": "6.14.4"
     },
     "main": "index.js",
     "scripts": {
